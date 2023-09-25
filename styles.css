@@ -73,20 +73,51 @@ select {
 }
 :root {
   /* primary colors */
---clr-primary-1-orange: hsl(31, 77%, 52%);
---clr-primary-2-dark-cyan: Dark cyan: hsl(184, 100%, 22%);
---clr-primary-3-very-dark-cyan: hsl(179, 100%, 13%);
+  --clr-primary-1-orange: hsl(31, 77%, 52%);
+  --clr-primary-2-dark-cyan: hsl(184, 100%, 22%);
+  --clr-primary-3-very-dark-cyan: hsl(179, 100%, 13%);
 
-/* neutral colors */
---clr-neutral-1-transparent-white: hsla(0, 0%, 100%, 0.75);
---clr-neutral-2-light-gray: hsla(0, 0%, 100%, 0.75);
+  /* neutral colors */
+  --clr-neutral-1-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-2-light-gray: hsla(0, 0%, 100%, 0.75);
+
+  /* fonts */
+  --ff-bodyFont: font-family: 'Lexend Deca', sans-serif;
+  --ff-headingFont: font-family: 'Big Shoulders Display', cursive;
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 }
 
+/* general styling */
+body {
+  font-family: var(--ff-bodyFont);
+  font-size: 0.938rem;
+  background: var(--clr-neutral-2-light-gray);
+  color: var(--clr-neutral-1-transparent-white);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.card-main {
+  max-width: 23.43rem;
+  margin: 1rem;
+}
 
+.sedan-card {
+  background: var(--clr-primary-1-orange);
+  padding: 2rem;
+}
 
+.suv-card {
+  background: var(--clr-primary-2-dark-cyan);
+  padding: 2rem;
+}
 
-
-/* fonts */
-font-family: "Big Shoulders Display", cursive;
-font-family: "Lexend Deca", sans-serif;
+.luxury-card {
+  background: var(--clr-primary-3-very-dark-cyan);
+  padding: 2rem;
+}
