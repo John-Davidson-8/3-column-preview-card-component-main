@@ -83,7 +83,6 @@ select {
 
   /* fonts */
   --ff-bodyFont: font-family: 'Lexend Deca', sans-serif;
-  --ff-headingFont: font-family: 'Big Shoulders Display', cursive;
 
   @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 }
@@ -109,15 +108,50 @@ body {
 
 .sedan-card {
   background: var(--clr-primary-1-orange);
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 .suv-card {
   background: var(--clr-primary-2-dark-cyan);
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 .luxury-card {
   background: var(--clr-primary-3-very-dark-cyan);
-  padding: 2rem;
+  padding: 2.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+  margin-top: 1rem;
+  color: var(--clr-neutral-1-transparent-white);
+}
+
+a {
+  text-decoration: none;
+  background: white;
+  padding: 0.75rem;
+  border-radius: 2rem;
+  display: block;
+  margin-top: 2rem;
+  margin-right: 9rem;
+  text-align: center;
+}
+
+.sedan-card a {
+  color: var(--clr-primary-1-orange);
+}
+
+.suv-card a {
+  color: var(--clr-primary-2-dark-cyan);
+}
+
+.luxury-card a {
+  color: var(--clr-primary-3-very-dark-cyan);
 }
