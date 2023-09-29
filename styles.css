@@ -181,7 +181,15 @@ p {
     justify-content: center;
     align-items: center;
   }
+  .sedan-card,.suv-card,.luxury-card {
+  max-width: 19.2rem;
+  }
+  .card-main a {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
 }
+
 
 footer {
   color: black;
