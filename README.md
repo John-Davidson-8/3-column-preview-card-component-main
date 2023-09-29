@@ -33,7 +33,7 @@ The challenge involves using html, css, css Flexbox and one media query. Also, t
 ### Links
 
 - Solution URL: (https://github.com/John-Davidson-8/3-column-preview-card-component-main)
-- Live Site URL: [](https://fem-3-column-preview-card-main.netlify.app/)
+- Live Site URL: (https://fem-3-column-preview-card-main.netlify.app/)
 
 ## My process
 
