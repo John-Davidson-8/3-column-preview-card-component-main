@@ -26,7 +26,7 @@ The challenge involves using html, css, css Flexbox and one media query. Also, t
 
 ### Screenshot
 
-![](./readme-images/mobile-screenshot.pngng)
+![](./readme-images/mobile-screenshot.png)
 
 ![](./readme-images/desktop%20screenshot.png)
 
